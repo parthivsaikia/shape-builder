@@ -119,6 +119,25 @@ export const OutputBox = styled.div`
   }
 `;
 
+export const CopyButton = styled.button`
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: ${({ theme }) => theme.text || "#FAFAFA"};
+
+  svg {
+    color: ${({ theme }) => theme.text || "#FAFAFA"};
+    fill: ${({ theme }) => theme.text || "#FAFAFA"};
+  }
+`;
+
 // export const Wrapper = styled.div`
 //   padding: 2rem;
 //   background-color: ${({ theme }) => theme.palette.background.default};
