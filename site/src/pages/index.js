@@ -72,7 +72,7 @@ const IndexPage = () => {
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
-                gap: 4,
+                gap: 2,
                 mb: 4,
               }}
             >
